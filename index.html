@@ -1,29 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
 </head>
+
 <body>
     <nav>
         <div class="logo">
-            <i class='bx bxs-log-in-circle' ></i>
+            <i class="bx bxs-log-in-circle"></i>
             <a href="index.html">Future Processing</a>
         </div>
         <ul>
-            <li><a href="#">Services</a><i class='bx bx-chevron-down'></i></li>
-            <li><a href="#">Technologies</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Our company</a><i class='bx bx-chevron-down'></i></li>
-            <li><a href="#">Knowledge hub</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Carrer</a></li>
-            <li><a href="#">EN</a><i class='bx bx-chevron-down'></i></li>
-            <li class="contact"><a href="#" >contact</a><img src="./assets/Path 7946 1.svg" alt=""></li>
+            <li>
+                <a href="#" class="item">Services</a><i class="bx bx-chevron-down"></i>
+            </li>
+            <li><a href="#" class="item">Technologies</a></li>
+            <li><a href="#" class="item">Clients</a></li>
+            <li>
+                <a href="#" class="item">Our company</a><i class="bx bx-chevron-down"></i>
+            </li>
+            <li><a href="#" class="item">Knowledge hub</a></li>
+            <li><a href="#" class="item">Blog</a></li>
+            <li><a href="#" class="item">Carrer</a></li>
+            <li class="lang">
+                <a href="#" class="item">EN</a><i class="bx bx-chevron-down"></i>
+            </li>
+            <li class="contact">
+                <a href="#">contact</a><img src="./assets/Path 7946 1.svg" alt="" />
+            </li>
         </ul>
     </nav>
+    <section class="top">
+        <div class="home">
+            <i class="bx bx-home"></i>
+            <pre><span>BUSSINESS BLOG</span> / DOMAIN SAMOCIUK</pre>
+        </div>
+        <hr />
+        <div class="inf">
+            <img src="./assets/image 71.png" alt="" />
+            <div class="info">
+                <h2>Dominik Samociuk</h2>
+                <p>Information Security Manager at Future Processing</p>
+                <hr />
+                <p>
+                    <span>
+                        Dominik started as an independent security researcher and went
+                        through variety of roles in his professional carrier.
+                    </span>
+                    Combining his professional work with the constant search for new
+                    knowledge, he received a PhD in computer science. He is an author or
+                    co-author of more than 20 scientific as well as popular science
+                    articles and a holder of various certifications, e.g. CISSP, OSCP.
+                    <span> He's constantly finding new challenges. </span>
+                </p>
+            </div>
+            <div class="shap">
+                <img src="./assets/frame.svg" alt="" />
+                <span class="circle"></span>
+            </div>
+        </div>
+    </section>
+    <section class="cards">
+        <div class="card">
+            <img src="./assets/image 31.png" alt="" />
+            <div class="bottom">
+                <p>
+                    The truth can be measured. Is it a myth, or is blockchain
+                    performance really that bad?
+                </p>
+                <div class="image">
+                    <img src="./assets/image 71.png" alt="" />
+                    <h2>Dominik Samociuk</h2>
+                </div>
+                <span>23 November 2022<i class="bx bx-stopwatch"></i> 5 min read</span>
+                <p>read the full article<i class="bx bx-right-arrow-alt"></i></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/image 33.png" alt="" />
+            <div class="bottom">
+                <p>
+                    The truth can be measured. Is it a myth, or is blockchain
+                    performance really that bad?
+                </p>
+                <div class="image">
+                    <img src="./assets/image 71.png" alt="" />
+                    <h2>Dominik Samociuk</h2>
+                </div>
+                <span>23 November 2022<i class="bx bx-stopwatch"></i> 5 min read</span>
+                <p>read the full article<i class="bx bx-right-arrow-alt"></i></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/image 34.png" alt="" />
+            <div class="bottom">
+                <p>
+                    The truth can be measured. Is it a myth, or is blockchain
+                    performance really that bad?
+                </p>
+                <div class="image">
+                    <img src="./assets/image 71.png" alt="" />
+                    <h2>Dominik Samociuk</h2>
+                </div>
+                <span>23 November 2022<i class="bx bx-stopwatch"></i> 5 min read</span>
+                <p>read the full article<i class="bx bx-right-arrow-alt"></i></p>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <hr />
+        <h2>let's talk</h2>
+        <hr class="line" />
+        <h3>Need more details about the Consulting Services we offer?</h3>
+        <p>Leave your contact details and we’ll get back to you with answers.</p>
+        <form>
+            <label for="name">name :</label>
+            <input type="text" placeholder="Name" id="name" />
+
+            <label for="surname">surname :</label>
+            <input type="text" placeholder="Surname" id="surname" />
+
+            <label for="phone">phone number :</label>
+            <input type="phone" placeholder="enter phone number" id="phone" />
+            <label for="company">company name :</label>
+            <input type="text" placeholder="enter company name" id="company" />
+            <label for="email">company email address :</label>
+            <input type="email" placeholder="enter your company email address" id="email" />
+            <label for="idea">describe your idea :</label>
+            <input type="text" placeholder="describe your idea" id="idea" />
+            <div class="checkbox">
+                <label><b>Do you need NDA first?</b></label>
+
+                <input type="radio" id="yes" name="nda" value="yes" /><label for="yes">yes</label>
+                <input type="radio" id="no" name="nda" value="no" /><label for="no">no</label>
+            </div>
+            <div class="submmit">
+                <p>
+                    I understand that my personal data given in the contact form above
+                    will be processed for purposes of answering my inquiry and for any
+                    further correspondence regarding this inquiry. The controller of
+                    your personal data is Future Processing. For more information, see
+                    our <span>Privacy Policy</span>.
+                </p>
+                <button>Submit <img src="./assets/Path 7946 1.svg" alt="" /></button>
+            </div>
+        </form>
+    </section>
+    <footer>
+
+        <div class="top">
+            <div class="map">
+                <h3>site map</h3>
+                <hr />
+                <ul>
+                    <li>Homepage</li>
+                    <li>Software Services</li>
+                    <li>About us</li>
+                    <li>How we deliver</li>
+                    <li>Clients</li>
+                    <li>Knowledge Hub</li>
+                    <li>Business Blog</li>
+                </ul>
+            </div>
+            <div class="map">
+                <h3>our initiatives</h3>
+                <hr />
+                <ul>
+                    <li>Partner Channel</li>
+                    <li>Startnearshoring</li>
+                    <li>Healthcare Services</li>
+                    <li>Sens.AI</li>
+                    <li>Cardio 4D</li>
+                    <li>IT Insights</li>
+                </ul>
+            </div>
+            <div class="map">
+                <h3>COMPANY</h3>
+                <hr />
+                <ul>
+                    <li>Career</li>
+                    <li>Contact with PR</li>
+                    <li>Going green</li>
+                    <li>Information for shareholders</li>
+                </ul>
+            </div>
+            <div class="footer_card">
+                <div>
+                    <p>Send an email</p>
+                    <h3>sales@future-processing.com</h3>
+                    <span>copy to clipboard</span>
+                    <div>
+                        <h2>+44 845 805 74 79</h2>
+                        <span>...view</span>
+                    </div>
+                </div>
+                <button>USE CONTACT FORM <img src="./assets/Path 7946 1.svg" alt=""></button>
+            </div>
+            <div class="follow">
+                <h3>follow us on :</h3>
+                <div class="icons">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-linkedin'></i>
+                    <i class='bx bxl-youtube'></i>
+                    <i class='bx bxl-instagram'></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom">
+            <div class="left">
+                <img src="./assets/image 18.png" alt="">
+                <div>
+                    <i class='bx bx-location-plus'></i>
+                    <p>Headquarters: Poland <br>
+                        ul.Bojkowska 37a,<br> 44-100 Gliwice<br>
+                    </p>
+                </div>
+                <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                <div class="card">
+                    <i class='bx bx-location-plus'></i>
+                    <p>
+                        <b style="color: #fff;">Poland</b><br>
+                        ul. Łużycka 3c,<br>
+                        81-537 Gdynia<br>
+                        <br>
+                    </p>
+                    <span>Google maps<i class='bx bx-down-arrow-alt'></i></span>
+                </div>
+                
+            </div>
+        </div>
+
+
+    </footer>
+    <section class="copy_rights">
+        <p>© Future Processing. All rights reserved. |  <span>Cookies</span> |  <span>Privacy policy</span></p>
+    </section>
 </body>
+
 </html>
